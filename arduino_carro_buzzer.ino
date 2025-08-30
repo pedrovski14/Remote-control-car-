@@ -95,7 +95,7 @@ void moveForward() {
   analogWrite(ENB, 255);
   digitalWrite(IN3, HIGH);
   digitalWrite(IN4, LOW);
-  Serial.println("➡️ Frente");
+  Serial.println("Frente");
 }
 
 void moveBack() {
@@ -106,7 +106,7 @@ void moveBack() {
   analogWrite(ENB, 255);
   digitalWrite(IN3, LOW);
   digitalWrite(IN4, HIGH);
-  Serial.println("⬅️ Ré");
+  Serial.println("Ré");
 }
 
 void turnLeft() {
@@ -118,7 +118,7 @@ void turnLeft() {
   analogWrite(ENB, 150);
   digitalWrite(IN3, HIGH);
   digitalWrite(IN4, LOW);
-  Serial.println("🔄 Esquerda");
+  Serial.println("Esquerda");
 }
 
 void turnRight() {
@@ -130,7 +130,7 @@ void turnRight() {
   analogWrite(ENB, 150);
   digitalWrite(IN3, LOW);
   digitalWrite(IN4, HIGH);
-  Serial.println("🔄 Direita");
+  Serial.println("Direita");
 }
 
 void stopCar() {
@@ -140,7 +140,7 @@ void stopCar() {
   digitalWrite(IN2, LOW);
   digitalWrite(IN3, LOW);
   digitalWrite(IN4, LOW);
-  Serial.println("⏹️ Parado");
+  Serial.println("Parado");
 }
 
 // Rotas do servidor
